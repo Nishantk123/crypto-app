@@ -23,13 +23,35 @@ const Home = () => {
   return (
     <div>
       <Header />
-      This is home page
+      <div className="container">
+        <div className="d-flex justify-content-between border-bottom p-3 ">
+          <div>Coin</div>
+          <div>Price</div>
+          <div> Market cap</div>
+          <div>High per day</div>
+          <div>Low per day</div>
+
+        </div>
       {allKeys.map((d, n) => {
         let dataset = cryptoData.DISPLAY[d];
         console.log(d, dataset);
         console.log(d);
-        return <div>{d}</div>;
+        var baseURL = `https://www.cryptocompare.com${dataset.INR.IMAGEURL}`;
+        return (
+          <div className="d-flex justify-content-between border-bottom p-3">
+                <div>
+                  <img src={baseURL} className="coin-image" />
+                </div>
+                <div className="coin-value">{dataset.INR.PRICE}</div>
+                <div className="coin-value">{dataset.INR.MKTCAP}</div>
+                <div className="coin-value">{dataset.INR.HIGHDAY}</div>
+                <div className="coin-value">{dataset.INR.LOWDAY}</div>
+
+
+          </div>
+        )
       })}
+      </div>
     </div>
   );
 };

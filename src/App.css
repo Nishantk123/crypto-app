@@ -4,3 +4,55 @@
   min-height: 100vh;
   color: white;
 }
+
+.icons{
+    
+  position: absolute;
+right: 0;
+top: 0;
+
+
+}
+.footer1{
+  border: 2px solid black;
+  padding: 2px;
+  border-radius: 2px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.ions{
+  height: 30px;
+
+  font-size-adjust:2px;
+}
+
+.coin-image{
+  height: 60px;
+}
+
+.coin-value{
+  padding: 20px 0px 0px;
+}
+.navbar{
+  background-color: black;
+  height: 11%;
+}
+ .btn{
+   width: 20%;
+ }
+.btn img{
+  height: 25px;
+  display: block;
+  margin: auto;
+}
+.container-top{
+  width: 95%;
+  margin: auto;
+  color: white;
+  background-image: linear-gradient(to right, blue, rgb(167, 13, 167));
+  border-radius: 10px;
+}
+#top-icon{
+  height: 30px;
+}
