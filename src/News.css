@@ -1,0 +1,27 @@
+.container-news{
+    width: 98%;
+    margin: auto;
+  }
+  .col-right{
+    text-align: right;
+    font-size: 15px;
+  }
+  .col-left{
+    text-align: left;
+    font-weight: bold;
+  }
+  .news-img{
+    height: 100px;
+    width: 100px;
+    text-align: right;
+  }
+  .news-title{
+    text-align: left;
+  }
+  
+  #vertical-menu{
+    height: 30px;
+    position: absolute;
+    right: 8px;
+    top: 18px;
+  }

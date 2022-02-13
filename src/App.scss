@@ -1,3 +1,4 @@
+@import url("./News.css");
 .App {
   text-align: center;
   background-color: #282c34;
@@ -5,13 +6,10 @@
   color: white;
 }
 
-.icons{
-    
-  position: absolute;
+.icons{    
+position: absolute;
 right: 0;
 top: 0;
-
-
 }
 .footer1{
   border: 2px solid black;
@@ -46,6 +44,7 @@ top: 0;
   display: block;
   margin: auto;
 }
+
 .container-top{
   width: 95%;
   margin: auto;
@@ -56,3 +55,4 @@ top: 0;
 #top-icon{
   height: 30px;
 }
+
