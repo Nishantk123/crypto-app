@@ -8,7 +8,7 @@ const Header = () => {
         src="https://icon-library.com/images/android-3-dot-menu-icon/android-3-dot-menu-icon-0.jpg"
         alt="iocns"
         style={{ width: 50 }}
-        className="icons col-sm-13"
+        className="v-icons col-sm-13"
       />
     </div>
   );
